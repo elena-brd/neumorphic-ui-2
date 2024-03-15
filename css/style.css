@@ -1,0 +1,117 @@
+/* default customization */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    color: #272727;
+    background: #f7f5f9;
+    padding: 0 2rem;
+}
+
+a {
+ text-decoration: none;
+ color: #333;
+}
+
+/* buttons */
+.btn {
+    color: #fff;
+    background: #7678ed;
+}
+
+.btn:hover,
+.btn-learn:hover {
+   background: #8d94c6;
+   box-shadow: none;
+}
+
+.btn-learn {
+    border-radius: 10px;
+    padding: 0.2rem 2rem;
+    font-size: 0.9rem;
+}
+
+.btn-done {
+    padding: 0.2rem 0.9rem;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgb(232, 192, 232);
+}
+
+/* checkbox customization */
+.filter-checkbox input[type="checkbox"] {
+    accent-color: #7678ed;
+}
+
+/* cards */
+.container {
+    width: 100%;
+    max-width: 620px;
+    display: flex;
+    justify-content: center;
+    margin: 8rem auto;
+    padding: 2rem;
+}
+
+/* filter card */
+#filters.filters-card  {
+    background: #fff;
+    margin: 0 2rem;
+    padding: 1.2rem;
+    width: 300px;
+    box-shadow: -1px 5px 31px -8px rgb(198, 190, 198);
+    border-radius: 5px;
+}
+
+#filters .filter-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.filter-checkbox div:nth-of-type(1) {
+    padding-top: 1.2rem;
+}
+
+.filter-checkbox div {
+    padding: 0.5rem 0;
+}
+
+/* Navigation */
+#navigation {
+    width: 300px;
+}
+#navigation .add-export-cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navigation .add-new,
+#navigation .export {
+    background: #e7e3e3;
+    padding: 0.5rem 0.9rem;
+    border-radius: 5px;
+}
+
+#navigation .certificate-card {
+    background: #e7e3e3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 2rem 0;
+    padding: 1.2rem;
+    border-radius: 5px;
+}
+
+#navigation p {
+    margin: 1rem 0;
+}
